@@ -34,7 +34,7 @@ set softtabstop=4               "In insert mode, tabs are 2 spaces
 set list                        "Show whitespace characters
 set listchars=tab:▸\ ,eol:¬     "Specify characters
 
-set nowrap                      "Don't wrap lines
+"set nowrap                      "Don't wrap lines
 set linebreak                   "Wrap lines at convenient points
 
 " ================ Search ===========================
