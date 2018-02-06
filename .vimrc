@@ -58,7 +58,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 " ================ Colors ===========================
 
 set t_Co=256
-"colorscheme twilight256
+colorscheme twilight256
 
 " ================ Mapping ==========================
 
