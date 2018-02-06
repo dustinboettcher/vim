@@ -1,4 +1,4 @@
- ================ General Config ====================
+" ================ General Config ====================
 
 set nocompatible                "No backwardcompatibility with VI
 set number                      "Line numbers are good
