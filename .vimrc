@@ -67,5 +67,5 @@ hi Normal ctermfg=white
 
 " ================ Mapping ==========================
 
-noremap <Left> :tabp<ENTER>     "Map previous tab
-noremap <Right> :tabn<ENTER>    "Map next tab
+nnoremap <Left> :tabp<Return>   "Map previous tab
+nnoremap <Right> :tabn<Return>  "Map next tab
