@@ -11,18 +11,19 @@ set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
 syntax on                       "Turn on syntax highlighting
 set modelines=0                 "CVE-2007-2438
-"set ttyfast                    "Fast rendering
+set ttyfast                     "Fast rendering
 
 " ================ File handling ====================
 
-" encoding
+"Encoding
 set encoding=utf-8
 set fileencoding=utf-8
 
-" file format
+"File format
 set fileformat=unix
 set fileformats=unix,dos
 
+"Set syntax for special filetypes
 au BufReadPost *.tpl set syntax=html
 
 " ================ Indentation ======================
@@ -36,15 +37,15 @@ set softtabstop=4               "softtabstop==tabstop, noexpandtab > force tabs 
 set list                        "Show whitespace characters
 set listchars=eol:¬,tab:▸·,trail:~,extends:>,precedes:<,space:␣
 
-"set nowrap                      "Don't wrap lines
+"set nowrap                     "Don't wrap lines
 set linebreak                   "Wrap lines at convenient points
 
 " ================ Search ===========================
 
-set incsearch                   "Find the next match as we type the search
+set incsearch                   "Find match as we type
 set hlsearch                    "Highlight searches by default
 set ignorecase                  "Ignore case when searching...
-set smartcase                   " ...unless we type a capital
+set smartcase                   "...unless we type a capital
 
 " ================ Editing ==========================
 set wildmenu                    "Visual autocomplete for command menu
@@ -66,5 +67,5 @@ hi Normal ctermfg=white
 
 " ================ Mapping ==========================
 
-map <F5> :tabp<ENTER>
-map <F6> :tabn<ENTER>
+map <F5> :tabp<ENTER>           "Map previous tab
+map <F6> :tabn<ENTER>           "Map next tab
