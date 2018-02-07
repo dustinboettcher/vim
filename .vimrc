@@ -23,6 +23,8 @@ set fileencoding=utf-8
 set fileformat=unix
 set fileformats=unix,dos
 
+au BufReadPost *.tpl set syntax=html
+
 " ================ Indentation ======================
 
 "set expandtab                  "Use spaces instead of tabs
