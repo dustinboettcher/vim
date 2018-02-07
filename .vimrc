@@ -58,7 +58,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 " ================ Colors ===========================
 
 colorscheme desert
-set background=light
+hi Comment ctermfg=darkgray
 
 " ================ Mapping ==========================
 
