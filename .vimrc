@@ -66,6 +66,5 @@ hi Comment ctermfg=darkgray
 hi Normal ctermfg=white
 
 " ================ Mapping ==========================
-
-nnoremap <C-Left> :tabprevious<CR>
-nnoremap <C-Right> :tabnext<CR>
+nnoremap <S-Left> :tabprevious<CR>
+nnoremap <S-Right> :tabnext<CR>
