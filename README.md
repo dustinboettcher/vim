@@ -35,3 +35,4 @@ ctrl r		- redo
 IN INSERT MODE
 ctrl d	- shift left
 ctrl t		- shift right
+ 
