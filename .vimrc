@@ -53,6 +53,8 @@ set showmatch                   "Highlight matching [{()}]
 
 " ================ Backup ===========================
 
+set swapfile
+set dir=~/tmp                   "Set the swapfile dir
 " Don't write backup file if vim is being called by "crontab -e"
 au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
 " Don't write backup file if vim is being called by "chpass"
