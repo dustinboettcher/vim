@@ -29,8 +29,6 @@ au BufReadPost *.tpl set syntax=html
 " ================ Indentation ======================
 
 set expandtab                   "Use spaces instead of tabs
-set autoindent                  "Autoindent based on line above
-set smartindent                 "Smarter indent for C-like languages
 set shiftwidth=4                "When reading, tabs are 4 spaces
 set softtabstop=4               "softtabstop==tabstop, noexpandtab > force tabs (expandtab > softtabstop ignored)
 
@@ -39,6 +37,10 @@ set listchars=eol:¬,tab:▸·,trail:~,extends:>,precedes:<,space:·
 
 "set nowrap                     "Don't wrap lines
 set linebreak                   "Wrap lines at convenient points
+
+" Disabled - wrong copy paste indentation from non vim sources
+"set autoindent                  "Autoindent based on line above
+"set smartindent                 "Smarter indent for C-like languages
 
 " ================ Search ===========================
 
