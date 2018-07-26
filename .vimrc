@@ -50,6 +50,7 @@ set ignorecase                  "Ignore case when searching...
 set smartcase                   "...unless we type a capital
 
 " ================ Editing ==========================
+
 set wildmenu                    "Visual autocomplete for command menu
 set showmatch                   "Highlight matching [{()}]
 
@@ -60,7 +61,8 @@ au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
 " Don't write backup file if vim is being called by "chpass"
 au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
-" ================ Swapfile (optional) ==============
+" ================ Swapfile =========================
+
 " Don't create swapfiles in the same folder as the file
 "set swapfile
 "set dir=~/tmp                   "Set the swapfile dir
