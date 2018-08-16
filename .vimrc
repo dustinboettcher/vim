@@ -65,7 +65,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 " Don't create swapfiles in the same folder as the file
 "set swapfile
-"set dir=~/tmp                   "Set the swapfile dir
+"set dir=~/.vim/tmp               "Set the swapfile dir
 
 " ================ Colors ===========================
 
