@@ -39,8 +39,8 @@ set listchars=eol:¬,tab:▸·,trail:~,extends:>,precedes:<,space:·
 set linebreak                   "Wrap lines at convenient points
 
 " Disabled - wrong copy paste indentation from non vim sources
-"set autoindent                  "Autoindent based on line above
-"set smartindent                 "Smarter indent for C-like languages
+"set autoindent                 "Autoindent based on line above
+"set smartindent                "Smarter indent for C-like languages
 
 " ================ Search ===========================
 
@@ -56,9 +56,9 @@ set showmatch                   "Highlight matching [{()}]
 
 " ================ Backup ===========================
 
-" Don't write backup file if vim is being called by "crontab -e"
+" Don't write backup file if vim is being called by 'crontab -e'
 au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
-" Don't write backup file if vim is being called by "chpass"
+" Don't write backup file if vim is being called by 'chpass'
 au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 " ================ Swapfile =========================
