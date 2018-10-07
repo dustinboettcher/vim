@@ -29,8 +29,8 @@ au BufReadPost *.tpl set syntax=html
 " ================ Indentation ======================
 
 set expandtab                   "Use spaces instead of tabs
-set shiftwidth=4                "When reading, tabs are 4 spaces
-set softtabstop=4               "softtabstop==tabstop, noexpandtab > force tabs (expandtab > softtabstop ignored)
+set shiftwidth=2                "When reading, tabs are 4 spaces
+set softtabstop=2               "softtabstop==tabstop, noexpandtab > force tabs (expandtab > softtabstop ignored)
 
 set list                        "Show whitespace characters
 set listchars=eol:¬,tab:▸·,trail:~,extends:>,precedes:<,space:·
