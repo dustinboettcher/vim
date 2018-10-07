@@ -65,7 +65,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 " Don't create swapfiles in the same folder as the file
 "set swapfile
-"set dir=~/.vim/tmp               "Set the swapfile dir
+"set dir=~/.vim/tmp             "Set the swapfile dir
 
 " ================ Colors ===========================
 
@@ -75,8 +75,10 @@ hi Comment ctermfg=darkgray
 hi Normal ctermfg=white
 
 " ================ Mapping ==========================
+
 nnoremap <S-Left> :tabprevious<CR>
 nnoremap <S-Right> :tabnext<CR>
 
 " ================ Network ==========================
-let g:netrw_ftp_cmd="ftp -p"       "Use passive mode in ftp connections
+
+let g:netrw_ftp_cmd="ftp -p"    "Use passive mode in ftp connections
