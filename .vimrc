@@ -77,8 +77,9 @@ hi Normal ctermfg=white
 
 " ================ Mapping ==========================
 
-nnoremap <S-Left> :tabprevious<CR>
-nnoremap <S-Right> :tabnext<CR>
+let mapleader = "<"                                                                                                                                                                                                                                                         
+nnoremap <leader><Left> :tabprevious<CR>                                                                                                                                                                                                                                    
+nnoremap <leader><Right> :tabnext<CR>  
 
 " ================ Network ==========================
 
