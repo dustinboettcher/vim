@@ -69,7 +69,9 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 " ================ Colors ===========================
 
-set t_Co=256
+if &term == "screen"
+  set t_Co=256
+endif
 set background=dark
 colorscheme paramount
 hi Comment ctermfg=darkgray
